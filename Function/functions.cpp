@@ -21,15 +21,15 @@ int main()
 {
     int num1 = 10;
     int num2 = 20;
-    swapByValue(num1, num2);
     
-    cout << "Number 1: "<< num1 << endl;       // does not change the values because of passing the parameters by value
+    swapByValue(num1, num2);                   // does not change the values because of passing the parameters by value
+    cout << "Number 1: "<< num1 << endl;       
     cout << "Number 2: "<< num2 << endl;
 
     cout << endl << endl;
     
-    swapByReference(num1, num2);   
-    cout << "Number 1: "<< num1 << endl;      // swaps the actual values because of passing the parameters by reference
+    swapByReference(num1, num2);              // swaps the actual values because of passing the parameters by reference 
+    cout << "Number 1: "<< num1 << endl;      
     cout << "Number 2: "<< num2 << endl;
 
 
