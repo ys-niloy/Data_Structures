@@ -15,7 +15,7 @@ void reverse(int i, int arr[], int n)
 int main()
 {
     int n = 5;
-    int arr[n] = {5,4,3,2,1};
+    int arr[5] = {5,4,3,2,1};
     reverse(0, arr, n);
     cout << "Array after reversing: ";
 
